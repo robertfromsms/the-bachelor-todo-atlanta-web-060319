@@ -11,6 +11,7 @@ def get_contestant_name(data, occupation)
     contestants.each {|contestant|
       if contestant["occupation"] == occupation
         return contestant["name"]
+      end
     }
   }
 end
